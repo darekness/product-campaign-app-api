@@ -4,6 +4,9 @@ const { search } = require("fast-fuzzy");
 const app = express();
 app.use(express.json());
 
+const cors = require("cors");
+app.use(cors());
+
 let emerald_account_budget = 1000;
 
 let campaigns = [
