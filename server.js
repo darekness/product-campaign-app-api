@@ -7,7 +7,7 @@ app.use(express.json());
 const cors = require("cors");
 app.use(cors());
 
-let emerald_account_budget = 1000;
+let emerald_account_budget = 100000;
 
 let campaigns = [
   {
